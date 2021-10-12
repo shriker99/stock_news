@@ -40,7 +40,7 @@ complete_date_list = [yesterday, week_ago, month_ago, total_history]
 def get_news():
     parameters_news = {
         'apiKey': API_KEY_NEWS,
-        'q': 'tesla',
+        'q': COMPANY_SHORT,
         'from_param': yesterday,
         'to': today,
     }
