@@ -10,6 +10,7 @@ INITIAL_PURCHASE_DATE = config('INITIAL_PURCHASE_DATE')
 
 STOCK = config('STOCK')
 COMPANY_NAME = config('COMPANY_NAME')
+COMPANY_SHORT = config('COMPANY_SHORT')
 
 parameters_alpha = {
     'apikey': API_KEY_ALPHA,
